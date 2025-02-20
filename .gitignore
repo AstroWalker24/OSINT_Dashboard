@@ -1,2 +1,3 @@
 requirements_doc.odt
 /backend/venv_flask_app
+/backend/.env
