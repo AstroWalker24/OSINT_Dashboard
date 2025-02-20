@@ -5,9 +5,6 @@ app = Flask(__name__)
 
 
 
-@app.route('/')
-def homeHandler():
-    return "Hello World!"
 
 
 if __name__=="__main__":
