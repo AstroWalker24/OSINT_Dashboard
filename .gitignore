@@ -1,3 +1,7 @@
 requirements_doc.odt
 /backend/venv_flask_app
 /backend/.env
+/backend/google-client.json
+/backend/src/__pycache__
+/backend/src/config/__pycache__
+/backend/src/database/__pycache__
