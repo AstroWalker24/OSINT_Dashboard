@@ -1,5 +1,5 @@
 import os
-from config.config import DevConfig, ProdConfig, TestConfig
+from src.config.config import DevConfig, ProdConfig, TestConfig
 
 
 
