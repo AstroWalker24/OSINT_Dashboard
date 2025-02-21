@@ -1,7 +1,10 @@
 from flask import Flask
-from .src.config import config 
-from .src.database import db
+from src.config import config 
+from src.database import db
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 
 app = Flask(__name__)
 
@@ -14,7 +17,7 @@ db.init_app(app)
 
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run()
 
 
     
